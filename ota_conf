@@ -7,8 +7,9 @@
 # * Multiple devices can be added in the xml file
 # * You can define any tags that end with 'Url'. These tags will be added in the UI automatically 
 
-ota_url=https://www.androidfilehost.com/?fid=24533103863143423
-device_name=ro.product.device
+ota_url=https://raw.githubusercontent.com/ishantvivek/OTA/master/ota.xml
+device_name=ro.rr.device
+release_type=Beta
 
 #
 # VERSION
@@ -31,7 +32,7 @@ device_name=ro.product.device
 # Version position: 3 (zero based)
 # Version format:
 #
-version_source=ro.modversion
+version_source=ro.rr.version
 version_delimiter=-
-version_position=0
+version_position=3
 version_format=yyyyMMdd
